@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: recallai
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 22.16.0
+      - key: ALLOWED_ORIGIN
+        value: https://preetham078.github.io
