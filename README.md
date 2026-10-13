@@ -2,6 +2,8 @@
 
 A username-based messaging app with profiles, friend requests, inbox, direct messages, and a mobile-friendly vanilla HTML/CSS/JS frontend.
 
+check out website is live here : https://preetham078.github.io/whatschat/
+
 ## Stack
 
 - Node.js 20+
